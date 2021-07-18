@@ -1,6 +1,6 @@
 echo 'Ibm cloud....'
 curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
-ibmcloud login -u 'tamish.verma@tcs.com' -p 'Devops12@'
+ibmcloud login -u 'tamish.verma@tcs.com' -p 'Devops12@' -2
 ibmcloud plugin install -f kubernetes-service
 ibmcloud plugin install -f container-registry
 
